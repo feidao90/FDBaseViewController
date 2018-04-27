@@ -12,13 +12,13 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		86348C042093273C00A33BF8 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86348C012093273C00A33BF8 /* BaseViewController.m */; };
+		86348C052093273C00A33BF8 /* VOBaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86348C032093273C00A33BF8 /* VOBaseNavViewController.m */; };
 		C1DE9C388998925DB7F341E1 /* Pods_VOBaseViewController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD80105700FEA3CE0B8C963 /* Pods_VOBaseViewController_Tests.framework */; };
 		DD713E254626EB63D981EB8C /* libPods-VOBaseViewController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 879DFC0DE5DBFB1EA56688E7 /* libPods-VOBaseViewController.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		385E3A4110C8863FCF739B8B /* VOBaseViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = VOBaseViewController.podspec; path = ../VOBaseViewController.podspec; sourceTree = "<group>"; };
-		49395AAD9AAEC991E13E4929 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -29,8 +29,11 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71930A3DE7CDDBFE42381841 /* Pods-VOBaseViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VOBaseViewController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VOBaseViewController/Pods-VOBaseViewController.debug.xcconfig"; sourceTree = "<group>"; };
+		86348C002093273C00A33BF8 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		86348C012093273C00A33BF8 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		86348C022093273C00A33BF8 /* VOBaseNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOBaseNavViewController.h; sourceTree = "<group>"; };
+		86348C032093273C00A33BF8 /* VOBaseNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOBaseNavViewController.m; sourceTree = "<group>"; };
 		879DFC0DE5DBFB1EA56688E7 /* libPods-VOBaseViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VOBaseViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		90C791D08694FC8E3DE1ADA5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D97F67443CAA7889F9C62E9C /* Pods-VOBaseViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VOBaseViewController.release.xcconfig"; path = "Pods/Target Support Files/Pods-VOBaseViewController/Pods-VOBaseViewController.release.xcconfig"; sourceTree = "<group>"; };
 		FCD80105700FEA3CE0B8C963 /* Pods_VOBaseViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VOBaseViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -54,7 +57,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
+				86348BFF2093273C00A33BF8 /* VOBaseViewController */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
@@ -102,14 +105,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
+		86348BFF2093273C00A33BF8 /* VOBaseViewController */ = {
 			isa = PBXGroup;
 			children = (
-				385E3A4110C8863FCF739B8B /* VOBaseViewController.podspec */,
-				49395AAD9AAEC991E13E4929 /* README.md */,
-				90C791D08694FC8E3DE1ADA5 /* LICENSE */,
+				86348C002093273C00A33BF8 /* BaseViewController.h */,
+				86348C012093273C00A33BF8 /* BaseViewController.m */,
+				86348C022093273C00A33BF8 /* VOBaseNavViewController.h */,
+				86348C032093273C00A33BF8 /* VOBaseNavViewController.m */,
 			);
-			name = "Podspec Metadata";
+			path = VOBaseViewController;
 			sourceTree = "<group>";
 		};
 		E522225292BE0D591D13081C /* Pods */ = {
@@ -212,7 +216,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86348C052093273C00A33BF8 /* VOBaseNavViewController.m in Sources */,
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				86348C042093273C00A33BF8 /* BaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
