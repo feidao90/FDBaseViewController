@@ -14,5 +14,7 @@ Pod::Spec.new do |s|
   s.source_files  = 'VOBaseViewController', 'VOBaseViewController/**/*.{h,m}'  
   s.dependency 'VOToleranceTool' , '~> 0.0.2'
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
+  
   s.user_target_xcconfig =   {'OTHER_LDFLAGS' => ['-lObjC','-all_load']}
+  s.pod_target_xcconfig = { "FRAMEWORK_SEARCH_PATHS" => "" }
 end
