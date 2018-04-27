@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
     :tag => s.version.to_s
   }
   s.requires_arc  = true
-  s.source_files  = 'VOBaseViewController', 'VOBaseViewController/**/*.{h,m}'
-  s.dependency 'VOToleranceTool', '0.0.2'
+  s.source_files  = 'VOBaseViewController', 'VOBaseViewController/**/*.{h,m}'  
+  s.dependency 'VOToleranceTool' , '~> 0.0.2'
 end
