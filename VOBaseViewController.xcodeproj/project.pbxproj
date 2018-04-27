@@ -23,6 +23,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		86D21ACF2092CB07007E6FCD /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D21ACC2092CB07007E6FCD /* BaseViewController.m */; };
 		86D21AD02092CB07007E6FCD /* VOBaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D21ACE2092CB07007E6FCD /* VOBaseNavViewController.m */; };
+		86D21AD12092D03A007E6FCD /* libVOToleranceTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86D21AD22092D03A007E6FCD /* libVOToleranceTool.a */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		DE3A6BB775B10BC7B91A410D /* libPods-VOBaseViewController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3400E03B7D4664B869326F8 /* libPods-VOBaseViewController.a */; };
 /* End PBXBuildFile section */
@@ -66,6 +67,7 @@
 		86D21ACC2092CB07007E6FCD /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		86D21ACD2092CB07007E6FCD /* VOBaseNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOBaseNavViewController.h; sourceTree = "<group>"; };
 		86D21ACE2092CB07007E6FCD /* VOBaseNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOBaseNavViewController.m; sourceTree = "<group>"; };
+		86D21AD22092D03A007E6FCD /* libVOToleranceTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libVOToleranceTool.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3400E03B7D4664B869326F8 /* libPods-VOBaseViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VOBaseViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -75,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86D21AD12092D03A007E6FCD /* libVOToleranceTool.a in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -127,6 +130,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				86D21AD22092D03A007E6FCD /* libVOToleranceTool.a */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -403,7 +407,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -436,7 +440,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
