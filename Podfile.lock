@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: 3d3f32833d32cf002ba235a95a106611854e3460
+PODS:
+  - VOToleranceTool (0.0.2)
+
+DEPENDENCIES:
+  - VOToleranceTool (= 0.0.2)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - VOToleranceTool
+
+SPEC CHECKSUMS:
+  VOToleranceTool: eb43d7ed92ac04b79be01759757f7736cff48382
+
+PODFILE CHECKSUM: 084e0c3d46ef11cbe6d990c3f1243eb916b86c74
 
 COCOAPODS: 1.5.0

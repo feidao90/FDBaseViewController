@@ -7,39 +7,126 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B1E27395127B57491B3961EE802A64C /* Pods-VOBaseViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B9AEF854673A7B51FEF213338FFC1E /* Pods-VOBaseViewController-dummy.m */; };
-		7B885E0B00867FA9A0612320301F60EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1200187A3E4BBFCA433A6E8F283F5BC7 /* NSMutableArray+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B8E6879B4C953D0DB93133F1191BAF4 /* NSMutableArray+Category.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1A8E836581DA60267106ABAF1CC9ABD5 /* VOToleranceTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FA6FC542E00CA8D7858EE97D6D3F8A /* VOToleranceTool-dummy.m */; };
+		209AFAF0DE74DE863E2F03D87F391153 /* NSDictionary+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FB02403AE0486055765A26B3C1A8D8 /* NSDictionary+Category.m */; };
+		382AACB49273C6008E039EAC6663F266 /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = D2DE708D32B264196202A91BD754F84C /* UIView+Frame.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3C097FC722CE679225AFCA16E14FD557 /* NSArray+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D955C163D35758FE1FE2E6439A3F2ED /* NSArray+Category.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		42BBB3F57DA42DC6577610DE056C3FCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		515F9247D3F1C052F175EF1A775BF08C /* NSString+URLCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EDA5A4948385C156BE7EF10CDE1B7BB /* NSString+URLCode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		54A95301ED5B6D08476E54F6BE2CAB12 /* NSArray+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAC3E9274D3DD390B5B7157722603D2 /* NSArray+Category.m */; };
+		5E6CFC81D7A35BE1247D217BA962E48B /* NSMutableArray+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A07B4E5B4324828E3C2F952A8A8BEA4 /* NSMutableArray+Category.m */; };
+		68D568466A8ABDCF003943052218AE42 /* NSString+DateString.m in Sources */ = {isa = PBXBuildFile; fileRef = EC20F63D8206F8539D3C9DA991ABB0C5 /* NSString+DateString.m */; };
+		72D81A988AD9412B32D88236FB0CBF84 /* NSString+ReplaceSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = 78FE468A9FBA0E7F51D9842EFE371B60 /* NSString+ReplaceSpace.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		82A62C028BF70060720986572ED178F0 /* NSString+URLCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC3D07C2CF6091AC2D0DDB2CA1B94D1 /* NSString+URLCode.m */; };
+		83F29B94C36C0E94526C100D4DDD13D1 /* VOCategorySet.h in Headers */ = {isa = PBXBuildFile; fileRef = 29B9CE7C02A19D1FF6C746901087032F /* VOCategorySet.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8AA314AE815844EFADB79B67E0FA4C62 /* Pods-VOBaseViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B9AEF854673A7B51FEF213338FFC1E /* Pods-VOBaseViewController-dummy.m */; };
+		90DB2C3FAC95BFB544634C5F0CA51253 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8783189B2BD9DBC7BABCBB53BF2FD0F1 /* UIView+Frame.m */; };
+		911A2F3E1A4B89329CE0B49AB0F64188 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		98109B84288B90CBF7CB4ED32E6573ED /* UIColor+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF68157B64C02839EF8E514FD33AA5D /* UIColor+Category.m */; };
+		9853BD9EF55E1ED71453E61C013B5BEC /* NSMutableDictionary+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = C76A1D8EDEEC1082E89DD3A5A94EEDAE /* NSMutableDictionary+Category.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9BB2BAF338CC3A336AC663ECC678CAF6 /* NSMutableDictionary+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DDFCA87263EBA4FA9E7449362B664E /* NSMutableDictionary+Category.m */; };
+		A2A2FD7686E21DAF1DE9CB5CBB163907 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		B00548DC3E892F88F418672F0ED1B8DA /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D69A8C2C65D6751E304E82949D905EA /* UIImage+Color.m */; };
+		C762AD65ADB059B19803D1BAB6B09417 /* NSString+DateString.h in Headers */ = {isa = PBXBuildFile; fileRef = BC84AADE9838DE8895AE2AEEEC36AAF1 /* NSString+DateString.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D6AF702F6F010CB2FBF6C6008ABE5B04 /* UIColor+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = 5623421E6317BA7944802A2A3A46A915 /* UIColor+Category.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DD504695C64145456C95EF22FEC8CA5B /* NSDictionary+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = E2B02D31280CDF8915EFD702CF51E702 /* NSDictionary+Category.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DDA210FD4F6BF8879F1207EF41EA5FFA /* UIImage+Color.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C4BC1140C4901EFE2BFAEA43A64C3AE /* UIImage+Color.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F805333B8939F95E24243878764347C3 /* NSString+ReplaceSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1B2E90511FDBF340BC9A4EE351B663 /* NSString+ReplaceSpace.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		036C72CCE1CD96F415A39DD3B73F3C92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46FFD5B0E865DF50695333479AED2E79;
+			remoteInfo = VOToleranceTool;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1B8E6879B4C953D0DB93133F1191BAF4 /* NSMutableArray+Category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+Category.h"; path = "VOToleranceTool/NSMutableArray+Category.h"; sourceTree = "<group>"; };
+		1D955C163D35758FE1FE2E6439A3F2ED /* NSArray+Category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Category.h"; path = "VOToleranceTool/NSArray+Category.h"; sourceTree = "<group>"; };
+		1F1B2E90511FDBF340BC9A4EE351B663 /* NSString+ReplaceSpace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+ReplaceSpace.m"; path = "VOToleranceTool/NSString+ReplaceSpace.m"; sourceTree = "<group>"; };
+		29B9CE7C02A19D1FF6C746901087032F /* VOCategorySet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VOCategorySet.h; path = VOToleranceTool/VOCategorySet.h; sourceTree = "<group>"; };
+		2D69A8C2C65D6751E304E82949D905EA /* UIImage+Color.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Color.m"; path = "VOToleranceTool/UIImage+Color.m"; sourceTree = "<group>"; };
+		2DAC3E9274D3DD390B5B7157722603D2 /* NSArray+Category.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Category.m"; path = "VOToleranceTool/NSArray+Category.m"; sourceTree = "<group>"; };
+		34DDFCA87263EBA4FA9E7449362B664E /* NSMutableDictionary+Category.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+Category.m"; path = "VOToleranceTool/NSMutableDictionary+Category.m"; sourceTree = "<group>"; };
+		3EC3D07C2CF6091AC2D0DDB2CA1B94D1 /* NSString+URLCode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+URLCode.m"; path = "VOToleranceTool/NSString+URLCode.m"; sourceTree = "<group>"; };
+		4A0592EFD0CCBAA36015063A1ED5AFE8 /* libPods-VOBaseViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-VOBaseViewController.a"; path = "libPods-VOBaseViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C4BC1140C4901EFE2BFAEA43A64C3AE /* UIImage+Color.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Color.h"; path = "VOToleranceTool/UIImage+Color.h"; sourceTree = "<group>"; };
+		5623421E6317BA7944802A2A3A46A915 /* UIColor+Category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Category.h"; path = "VOToleranceTool/UIColor+Category.h"; sourceTree = "<group>"; };
+		5CF68157B64C02839EF8E514FD33AA5D /* UIColor+Category.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Category.m"; path = "VOToleranceTool/UIColor+Category.m"; sourceTree = "<group>"; };
+		5EDA5A4948385C156BE7EF10CDE1B7BB /* NSString+URLCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+URLCode.h"; path = "VOToleranceTool/NSString+URLCode.h"; sourceTree = "<group>"; };
+		6A07B4E5B4324828E3C2F952A8A8BEA4 /* NSMutableArray+Category.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+Category.m"; path = "VOToleranceTool/NSMutableArray+Category.m"; sourceTree = "<group>"; };
+		6EA7D152535CF6143A73E3516DF92B2F /* libVOToleranceTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libVOToleranceTool.a; path = libVOToleranceTool.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F74A7D3F150C24826B399695D1D77C9 /* Pods-VOBaseViewController-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VOBaseViewController-acknowledgements.markdown"; sourceTree = "<group>"; };
+		78FE468A9FBA0E7F51D9842EFE371B60 /* NSString+ReplaceSpace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+ReplaceSpace.h"; path = "VOToleranceTool/NSString+ReplaceSpace.h"; sourceTree = "<group>"; };
 		7DEF9E470F7C7CE700D6BEE3E40DA071 /* Pods-VOBaseViewController-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VOBaseViewController-acknowledgements.plist"; sourceTree = "<group>"; };
 		81B9AEF854673A7B51FEF213338FFC1E /* Pods-VOBaseViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VOBaseViewController-dummy.m"; sourceTree = "<group>"; };
+		81FA6FC542E00CA8D7858EE97D6D3F8A /* VOToleranceTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VOToleranceTool-dummy.m"; sourceTree = "<group>"; };
+		8783189B2BD9DBC7BABCBB53BF2FD0F1 /* UIView+Frame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Frame.m"; path = "VOToleranceTool/UIView+Frame.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94FB02403AE0486055765A26B3C1A8D8 /* NSDictionary+Category.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Category.m"; path = "VOToleranceTool/NSDictionary+Category.m"; sourceTree = "<group>"; };
 		9CEBE9F6EB15EE6706D2F987DFC5C6B3 /* Pods-VOBaseViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VOBaseViewController.debug.xcconfig"; sourceTree = "<group>"; };
 		A73DD5B82E64509150167F7552BD24CB /* Pods-VOBaseViewController-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VOBaseViewController-resources.sh"; sourceTree = "<group>"; };
-		D2867F7F289C3A5D8B701CC725ACDED0 /* libPods-VOBaseViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-VOBaseViewController.a"; path = "libPods-VOBaseViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BC84AADE9838DE8895AE2AEEEC36AAF1 /* NSString+DateString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+DateString.h"; path = "VOToleranceTool/NSString+DateString.h"; sourceTree = "<group>"; };
+		C76A1D8EDEEC1082E89DD3A5A94EEDAE /* NSMutableDictionary+Category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+Category.h"; path = "VOToleranceTool/NSMutableDictionary+Category.h"; sourceTree = "<group>"; };
+		D1F0675762672AEB3C5BAD6E3558C4B9 /* VOToleranceTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VOToleranceTool.xcconfig; sourceTree = "<group>"; };
+		D2DE708D32B264196202A91BD754F84C /* UIView+Frame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Frame.h"; path = "VOToleranceTool/UIView+Frame.h"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DCB5C469635CED90277824F3F649D700 /* Pods-VOBaseViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VOBaseViewController.release.xcconfig"; sourceTree = "<group>"; };
 		DDA3613BC5990AF14CEAFB6C7B27F3A8 /* Pods-VOBaseViewController-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VOBaseViewController-frameworks.sh"; sourceTree = "<group>"; };
+		E0AAEBB6D733431592CCA820D4358BD5 /* VOToleranceTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VOToleranceTool-prefix.pch"; sourceTree = "<group>"; };
+		E2B02D31280CDF8915EFD702CF51E702 /* NSDictionary+Category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Category.h"; path = "VOToleranceTool/NSDictionary+Category.h"; sourceTree = "<group>"; };
+		EC20F63D8206F8539D3C9DA991ABB0C5 /* NSString+DateString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+DateString.m"; path = "VOToleranceTool/NSString+DateString.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2FABD5DBA6C7ED0B525DBF86B30BD5E6 /* Frameworks */ = {
+		5DC777C3B7EC9043182FD4FDE95ECF8F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B885E0B00867FA9A0612320301F60EE /* Foundation.framework in Frameworks */,
+				42BBB3F57DA42DC6577610DE056C3FCA /* Foundation.framework in Frameworks */,
+				A2A2FD7686E21DAF1DE9CB5CBB163907 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		896A8F2DE2C5B62DCAF5EE5D19394753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				911A2F3E1A4B89329CE0B49AB0F64188 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2BDD3A6CE301C200B5769D4B9BBEB224 /* Products */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D2867F7F289C3A5D8B701CC725ACDED0 /* libPods-VOBaseViewController.a */,
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		466ABA172C173D92F6668FBA76A1764D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A0592EFD0CCBAA36015063A1ED5AFE8 /* libPods-VOBaseViewController.a */,
+				6EA7D152535CF6143A73E3516DF92B2F /* libVOToleranceTool.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,8 +135,9 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				2BDD3A6CE301C200B5769D4B9BBEB224 /* Products */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				9BA2A4792E505A4296B580D5CD7DC822 /* Pods */,
+				466ABA172C173D92F6668FBA76A1764D /* Products */,
 				F47D25A8F967BBAEE96D8A912A7E23EA /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -69,20 +157,53 @@
 			path = "Target Support Files/Pods-VOBaseViewController";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		9BA2A4792E505A4296B580D5CD7DC822 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				CB9AEC869C556698D5DF7B3182CDE41A /* VOToleranceTool */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		CB9AEC869C556698D5DF7B3182CDE41A /* VOToleranceTool */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				1D955C163D35758FE1FE2E6439A3F2ED /* NSArray+Category.h */,
+				2DAC3E9274D3DD390B5B7157722603D2 /* NSArray+Category.m */,
+				E2B02D31280CDF8915EFD702CF51E702 /* NSDictionary+Category.h */,
+				94FB02403AE0486055765A26B3C1A8D8 /* NSDictionary+Category.m */,
+				1B8E6879B4C953D0DB93133F1191BAF4 /* NSMutableArray+Category.h */,
+				6A07B4E5B4324828E3C2F952A8A8BEA4 /* NSMutableArray+Category.m */,
+				C76A1D8EDEEC1082E89DD3A5A94EEDAE /* NSMutableDictionary+Category.h */,
+				34DDFCA87263EBA4FA9E7449362B664E /* NSMutableDictionary+Category.m */,
+				BC84AADE9838DE8895AE2AEEEC36AAF1 /* NSString+DateString.h */,
+				EC20F63D8206F8539D3C9DA991ABB0C5 /* NSString+DateString.m */,
+				78FE468A9FBA0E7F51D9842EFE371B60 /* NSString+ReplaceSpace.h */,
+				1F1B2E90511FDBF340BC9A4EE351B663 /* NSString+ReplaceSpace.m */,
+				5EDA5A4948385C156BE7EF10CDE1B7BB /* NSString+URLCode.h */,
+				3EC3D07C2CF6091AC2D0DDB2CA1B94D1 /* NSString+URLCode.m */,
+				5623421E6317BA7944802A2A3A46A915 /* UIColor+Category.h */,
+				5CF68157B64C02839EF8E514FD33AA5D /* UIColor+Category.m */,
+				4C4BC1140C4901EFE2BFAEA43A64C3AE /* UIImage+Color.h */,
+				2D69A8C2C65D6751E304E82949D905EA /* UIImage+Color.m */,
+				D2DE708D32B264196202A91BD754F84C /* UIView+Frame.h */,
+				8783189B2BD9DBC7BABCBB53BF2FD0F1 /* UIView+Frame.m */,
+				29B9CE7C02A19D1FF6C746901087032F /* VOCategorySet.h */,
+				E4A91F3E85F53DA7501492B39509BA65 /* Support Files */,
 			);
-			name = iOS;
+			name = VOToleranceTool;
+			path = VOToleranceTool;
+			sourceTree = "<group>";
+		};
+		E4A91F3E85F53DA7501492B39509BA65 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1F0675762672AEB3C5BAD6E3558C4B9 /* VOToleranceTool.xcconfig */,
+				81FA6FC542E00CA8D7858EE97D6D3F8A /* VOToleranceTool-dummy.m */,
+				E0AAEBB6D733431592CCA820D4358BD5 /* VOToleranceTool-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/VOToleranceTool";
 			sourceTree = "<group>";
 		};
 		F47D25A8F967BBAEE96D8A912A7E23EA /* Targets Support Files */ = {
@@ -95,21 +216,60 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		7E656D55015ECA2372A1A29EB5F37DF0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C097FC722CE679225AFCA16E14FD557 /* NSArray+Category.h in Headers */,
+				DD504695C64145456C95EF22FEC8CA5B /* NSDictionary+Category.h in Headers */,
+				1200187A3E4BBFCA433A6E8F283F5BC7 /* NSMutableArray+Category.h in Headers */,
+				9853BD9EF55E1ED71453E61C013B5BEC /* NSMutableDictionary+Category.h in Headers */,
+				C762AD65ADB059B19803D1BAB6B09417 /* NSString+DateString.h in Headers */,
+				72D81A988AD9412B32D88236FB0CBF84 /* NSString+ReplaceSpace.h in Headers */,
+				515F9247D3F1C052F175EF1A775BF08C /* NSString+URLCode.h in Headers */,
+				D6AF702F6F010CB2FBF6C6008ABE5B04 /* UIColor+Category.h in Headers */,
+				DDA210FD4F6BF8879F1207EF41EA5FFA /* UIImage+Color.h in Headers */,
+				382AACB49273C6008E039EAC6663F266 /* UIView+Frame.h in Headers */,
+				83F29B94C36C0E94526C100D4DDD13D1 /* VOCategorySet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		245987C563CC0F327C96350D87D3E5B3 /* Pods-VOBaseViewController */ = {
+		46FFD5B0E865DF50695333479AED2E79 /* VOToleranceTool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0982B06C7E6CCF668D1915E1F3505383 /* Build configuration list for PBXNativeTarget "Pods-VOBaseViewController" */;
+			buildConfigurationList = A9DBF3A2FC0EF2E0B2743CC413D7FDFE /* Build configuration list for PBXNativeTarget "VOToleranceTool" */;
 			buildPhases = (
-				CAD519FAD201532774C4FD3690504DA6 /* Sources */,
-				2FABD5DBA6C7ED0B525DBF86B30BD5E6 /* Frameworks */,
+				78D9C0E4BB76025CDFEE260592A22016 /* Sources */,
+				5DC777C3B7EC9043182FD4FDE95ECF8F /* Frameworks */,
+				7E656D55015ECA2372A1A29EB5F37DF0 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = VOToleranceTool;
+			productName = VOToleranceTool;
+			productReference = 6EA7D152535CF6143A73E3516DF92B2F /* libVOToleranceTool.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6562E80B559526AE88813EBCF91001EB /* Pods-VOBaseViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36AD360A187A661696D879E4BA9173C4 /* Build configuration list for PBXNativeTarget "Pods-VOBaseViewController" */;
+			buildPhases = (
+				399B3652F3D5BF1CEB09FF40312CA1D9 /* Sources */,
+				896A8F2DE2C5B62DCAF5EE5D19394753 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A0322226C793D3C33020A9A189D3B2F /* PBXTargetDependency */,
+			);
 			name = "Pods-VOBaseViewController";
 			productName = "Pods-VOBaseViewController";
-			productReference = D2867F7F289C3A5D8B701CC725ACDED0 /* libPods-VOBaseViewController.a */;
+			productReference = 4A0592EFD0CCBAA36015063A1ED5AFE8 /* libPods-VOBaseViewController.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -129,25 +289,53 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 2BDD3A6CE301C200B5769D4B9BBEB224 /* Products */;
+			productRefGroup = 466ABA172C173D92F6668FBA76A1764D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				245987C563CC0F327C96350D87D3E5B3 /* Pods-VOBaseViewController */,
+				6562E80B559526AE88813EBCF91001EB /* Pods-VOBaseViewController */,
+				46FFD5B0E865DF50695333479AED2E79 /* VOToleranceTool */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CAD519FAD201532774C4FD3690504DA6 /* Sources */ = {
+		399B3652F3D5BF1CEB09FF40312CA1D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B1E27395127B57491B3961EE802A64C /* Pods-VOBaseViewController-dummy.m in Sources */,
+				8AA314AE815844EFADB79B67E0FA4C62 /* Pods-VOBaseViewController-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78D9C0E4BB76025CDFEE260592A22016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A95301ED5B6D08476E54F6BE2CAB12 /* NSArray+Category.m in Sources */,
+				209AFAF0DE74DE863E2F03D87F391153 /* NSDictionary+Category.m in Sources */,
+				5E6CFC81D7A35BE1247D217BA962E48B /* NSMutableArray+Category.m in Sources */,
+				9BB2BAF338CC3A336AC663ECC678CAF6 /* NSMutableDictionary+Category.m in Sources */,
+				68D568466A8ABDCF003943052218AE42 /* NSString+DateString.m in Sources */,
+				F805333B8939F95E24243878764347C3 /* NSString+ReplaceSpace.m in Sources */,
+				82A62C028BF70060720986572ED178F0 /* NSString+URLCode.m in Sources */,
+				98109B84288B90CBF7CB4ED32E6573ED /* UIColor+Category.m in Sources */,
+				B00548DC3E892F88F418672F0ED1B8DA /* UIImage+Color.m in Sources */,
+				90DB2C3FAC95BFB544634C5F0CA51253 /* UIView+Frame.m in Sources */,
+				1A8E836581DA60267106ABAF1CC9ABD5 /* VOToleranceTool-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A0322226C793D3C33020A9A189D3B2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VOToleranceTool;
+			target = 46FFD5B0E865DF50695333479AED2E79 /* VOToleranceTool */;
+			targetProxy = 036C72CCE1CD96F415A39DD3B73F3C92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
@@ -213,7 +401,31 @@
 			};
 			name = Debug;
 		};
-		5925C0B9B368727BC8EC35E95FFBAC6C /* Debug */ = {
+		4AC9764BDAB5571AED61CB148AF0FB31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1F0675762672AEB3C5BAD6E3558C4B9 /* VOToleranceTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/VOToleranceTool/VOToleranceTool-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = VOToleranceTool;
+				PRODUCT_NAME = VOToleranceTool;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CC9873888BCC3959F472B9680649FC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9CEBE9F6EB15EE6706D2F987DFC5C6B3 /* Pods-VOBaseViewController.debug.xcconfig */;
 			buildSettings = {
@@ -234,7 +446,30 @@
 			};
 			name = Debug;
 		};
-		63A781C9270853FC33221AA0E048D8E4 /* Release */ = {
+		B3E545D79F8C2A133DBDD8B2FB2BDD5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1F0675762672AEB3C5BAD6E3558C4B9 /* VOToleranceTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/VOToleranceTool/VOToleranceTool-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = VOToleranceTool;
+				PRODUCT_NAME = VOToleranceTool;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEC70829F9E5B8CCB188566AD311BE5A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DCB5C469635CED90277824F3F649D700 /* Pods-VOBaseViewController.release.xcconfig */;
 			buildSettings = {
@@ -317,20 +552,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0982B06C7E6CCF668D1915E1F3505383 /* Build configuration list for PBXNativeTarget "Pods-VOBaseViewController" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5925C0B9B368727BC8EC35E95FFBAC6C /* Debug */,
-				63A781C9270853FC33221AA0E048D8E4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
 				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36AD360A187A661696D879E4BA9173C4 /* Build configuration list for PBXNativeTarget "Pods-VOBaseViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CC9873888BCC3959F472B9680649FC6 /* Debug */,
+				CEC70829F9E5B8CCB188566AD311BE5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9DBF3A2FC0EF2E0B2743CC413D7FDFE /* Build configuration list for PBXNativeTarget "VOToleranceTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3E545D79F8C2A133DBDD8B2FB2BDD5E /* Debug */,
+				4AC9764BDAB5571AED61CB148AF0FB31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -7,6 +7,7 @@
 //
 
 #import "VOBaseNavViewController.h"
+#import "VOCategorySet.h"
 
 @interface VOBaseNavViewController ()<UIGestureRecognizerDelegate,UINavigationControllerDelegate>
 

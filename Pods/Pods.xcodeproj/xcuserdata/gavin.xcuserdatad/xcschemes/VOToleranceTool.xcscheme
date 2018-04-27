@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6562E80B559526AE88813EBCF91001EB"
-               BlueprintName = "Pods-VOBaseViewController"
+               BlueprintIdentifier = "46FFD5B0E865DF50695333479AED2E79"
+               BlueprintName = "VOToleranceTool"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libPods-VOBaseViewController.a">
+               BuildableName = "libVOToleranceTool.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

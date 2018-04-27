@@ -7,6 +7,7 @@
 //
 
 #import "BaseViewController.h"
+#import "VOCategorySet.h"
 
 @interface BaseViewController ()<UIGestureRecognizerDelegate>
 {
