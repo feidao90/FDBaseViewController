@@ -477,7 +477,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",
-					"\"${PODS_ROOT}/Headers/Public/VOToleranceTool\"/**",
+					"\"${PODS_ROOT}/Headers/Public/VOToleranceTool\"",
 				);
 				INFOPLIST_FILE = "VOBaseViewController/VOBaseViewController-Info.plist";
 				MODULE_NAME = ExampleApp;
@@ -497,7 +497,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",
-					"\"${PODS_ROOT}/Headers/Public/VOToleranceTool\"/**",
+					"\"${PODS_ROOT}/Headers/Public/VOToleranceTool\"",
 				);
 				INFOPLIST_FILE = "VOBaseViewController/VOBaseViewController-Info.plist";
 				MODULE_NAME = ExampleApp;
