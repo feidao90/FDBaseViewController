@@ -21,6 +21,8 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		86D21ACF2092CB07007E6FCD /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D21ACC2092CB07007E6FCD /* BaseViewController.m */; };
+		86D21AD02092CB07007E6FCD /* VOBaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D21ACE2092CB07007E6FCD /* VOBaseNavViewController.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		DE3A6BB775B10BC7B91A410D /* libPods-VOBaseViewController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3400E03B7D4664B869326F8 /* libPods-VOBaseViewController.a */; };
 /* End PBXBuildFile section */
@@ -36,11 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02D1AA0B94259CEB3FCB196E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		094433CE537DD11D93A383C9 /* Pods-VOBaseViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VOBaseViewController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VOBaseViewController/Pods-VOBaseViewController.debug.xcconfig"; sourceTree = "<group>"; };
 		25B52B8543839BF102AC8CFB /* Pods_VOBaseViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VOBaseViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EE47E2539A98CB5420A0F6E /* Pods_VOBaseViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VOBaseViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		399228E6780BB8ED6994A555 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4B6CBCB03421BC12915C201B /* Pods-VOBaseViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VOBaseViewController.release.xcconfig"; path = "Pods/Target Support Files/Pods-VOBaseViewController/Pods-VOBaseViewController.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* VOBaseViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VOBaseViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,8 +62,11 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86D21ACB2092CB07007E6FCD /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		86D21ACC2092CB07007E6FCD /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		86D21ACD2092CB07007E6FCD /* VOBaseNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VOBaseNavViewController.h; sourceTree = "<group>"; };
+		86D21ACE2092CB07007E6FCD /* VOBaseNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VOBaseNavViewController.m; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9BE9955644D195243F2B7C14 /* VOBaseViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = VOBaseViewController.podspec; path = ../VOBaseViewController.podspec; sourceTree = "<group>"; };
 		E3400E03B7D4664B869326F8 /* libPods-VOBaseViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VOBaseViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -104,8 +107,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
-				6003F593195388D20070C39A /* Example for VOBaseViewController */,
+				6003F593195388D20070C39A /* VOBaseViewController */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
@@ -136,7 +138,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6003F593195388D20070C39A /* Example for VOBaseViewController */ = {
+		6003F593195388D20070C39A /* VOBaseViewController */ = {
 			isa = PBXGroup;
 			children = (
 				6003F59C195388D20070C39A /* VOAppDelegate.h */,
@@ -144,11 +146,11 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* VOViewController.h */,
 				6003F5A6195388D20070C39A /* VOViewController.m */,
+				86D21ACA2092CB07007E6FCD /* BaseVC */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
-			name = "Example for VOBaseViewController";
 			path = VOBaseViewController;
 			sourceTree = "<group>";
 		};
@@ -182,14 +184,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
+		86D21ACA2092CB07007E6FCD /* BaseVC */ = {
 			isa = PBXGroup;
 			children = (
-				9BE9955644D195243F2B7C14 /* VOBaseViewController.podspec */,
-				02D1AA0B94259CEB3FCB196E /* README.md */,
-				399228E6780BB8ED6994A555 /* LICENSE */,
+				86D21ACB2092CB07007E6FCD /* BaseViewController.h */,
+				86D21ACC2092CB07007E6FCD /* BaseViewController.m */,
+				86D21ACD2092CB07007E6FCD /* VOBaseNavViewController.h */,
+				86D21ACE2092CB07007E6FCD /* VOBaseNavViewController.m */,
 			);
-			name = "Podspec Metadata";
+			path = BaseVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,7 +317,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* VOAppDelegate.m in Sources */,
+				86D21ACF2092CB07007E6FCD /* BaseViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* VOViewController.m in Sources */,
+				86D21AD02092CB07007E6FCD /* VOBaseNavViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
