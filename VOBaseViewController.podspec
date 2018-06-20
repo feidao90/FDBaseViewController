@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name     = 'VOBaseViewController'
   s.ios.deployment_target = "9.0"
-  s.version  = '1.0.4'
+  s.version  = '1.0.6'
   s.license = "Copyright (c) 2018年 Gavin. All rights reserved."
   s.homepage = 'https://github.com/feidaoGavin/VOBaseViewController.git'
   s.summary  = 'VOBaseViewController抽象基类'

@@ -85,6 +85,10 @@
     [self.leftButton addTarget:target action:selector forControlEvents:UIControlEventTouchUpInside];
     
     UIImageView *backImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 44./2 - image.size.height/2, image.size.width, image.size.height)];
+    if(image.size.width < 20)
+    {
+        backImageView.frame = CGRectMake(0, 44./2 - 20./2, 21., 20.);
+    }
     backImageView.image = image;
     backImageView.contentMode = UIViewContentModeScaleAspectFit;
     [self.leftButton addSubview:backImageView];
